@@ -12,8 +12,8 @@ class MalScanner():
 	def __init__(self):
 #		self.binaries = os.listdir("/data/dionaea/binaries")
 #		self.resultDir = os.listdir("/home/t-pot/ScanResult")
-		self.binaries = os.listdir("/home/t1N4/MalScanner/binaries")
-		self.resultDir = os.listdir("/home/t1N4/MalScanner/result")
+		self.binaries = os.listdir("/home/user/MalScanner/binaries")
+		self.resultDir = os.listdir("/home/user/MalScanner/result")
 		self.VTurl = "https://www.virustotal.com/vtapi/v2/file/report"
 
 		self.param = {"resource": None, "apikey": "VIRUSTOTAL_API"}
